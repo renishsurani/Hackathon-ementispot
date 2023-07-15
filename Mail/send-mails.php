@@ -1,8 +1,8 @@
 <?php
 session_start();
 include('../setting/dbconnection.php');
-$_SESSION['email-id'] = 'ementispot8@gmail.com';
-$_SESSION['email-password'] = 'qzzlfodlrbqjtkbk';
+$_SESSION['email-id'] = 'MAIL ID';
+$_SESSION['email-password'] = 'PASS WORD';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
